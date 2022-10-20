@@ -1,0 +1,7 @@
+<% layout('layouts/boilerplate')%>
+    <h1 class="mt-4">Admin Dashboard</h1>
+    <p class="lead mb-3">Welcome <%= user.email %>
+    </p>
+    <p class="lead mb-3">Your id is <%= user._id %>
+    </p>
+    <a href="/users/logout" class="btn btn-secondary">Logout</a>
